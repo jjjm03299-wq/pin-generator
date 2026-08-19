@@ -5,7 +5,7 @@ import { routeTree } from "./routeTree.gen";
 
 const router = createRouter({
   routeTree,
-  basepath: "/pin-generator/",
+  basepath: "/pin-generator",
 });
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
